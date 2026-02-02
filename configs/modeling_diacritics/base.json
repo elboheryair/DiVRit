@@ -1,0 +1,20 @@
+{
+    "vit_model_name_or_path": "diacritics/diacritizing/intermediate/base/outputs/outputs/2111473",
+    "data_dir": "diacritics/diacritizing/",
+    "output_dir": "diacritics/diacritizing/modeling_diacritics/outputs/base",
+    "do_train": true,
+    "do_eval": false,
+    "do_predict": false,
+    "num_train_epochs": 1,
+    "max_steps": 20000,
+    "per_device_train_batch_size": 8,
+    "logging_strategy": "steps",
+    "logging_steps": 500,
+    "evaluation_strategy": "no",
+    "eval_steps": 1000,
+    "save_strategy": "no",
+    "report_to": "wandb",
+    "num_candidates": 2,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 5e-05
+}

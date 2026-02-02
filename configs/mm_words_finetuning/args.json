@@ -1,0 +1,23 @@
+{
+    "diacritizer_path": "diacritics/diacritizing/mm_words_finetuning/outputs/base/outputs/2656705/pytorch_model.bin",
+    "max_eval_examples": 100,
+    "raw_model_name_or_path": "dicta-il/alephbertgimmel-small",
+    "candidates_model_name_or_path": "diacritics/diacritizing/intermediate/base/outputs/outputs/2111473",
+    "data_dir": "diacritics/diacritizing/",
+    "output_dir": "diacritics/diacritizing/mm_words_finetuning/outputs/base",
+    "do_train": false,
+    "do_eval": true,
+    "do_predict": true,
+    "num_train_epochs": 1,
+    "max_steps": 500,
+    "per_device_train_batch_size": 8,
+    "logging_strategy": "steps",
+    "logging_steps": 50,
+    "evaluation_strategy": "steps",
+    "eval_steps": 100,
+    "save_strategy": "no",
+    "report_to": "none",
+    "num_candidates": 2,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 5e-05
+}

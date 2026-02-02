@@ -1,0 +1,16 @@
+{
+    "model_name_or_path": "diacritics/diacritizing/models/small/outputs/758917",
+    "data_dir": "diacritics/diacritizing/",
+    "output_dir": "diacritics/diacritizing/mm_finetuning/small/outputs",
+    "do_train": true,
+    "num_train_epochs": 1,
+    "max_steps": 10,
+    "per_device_train_batch_size": 16,
+    "logging_strategy": "steps",
+    "logging_steps": 500,
+    "evaluation_strategy": "steps",
+    "do_eval": false,
+    "eval_steps": 1000,
+    "save_strategy": "no",
+    "report_to": "none"
+}

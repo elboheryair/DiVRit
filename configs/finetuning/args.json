@@ -1,0 +1,23 @@
+{
+    "model_name_or_path": "diacritics/diacritizing/models/base/outputs/1186336",
+    "diacritizer_path": "/home/yairel/workspace/PIXEL_based_diacritizer/diacritics/diacritizing/finetuning/outputs/base/outputs/2404089/pytorch_model.bin",
+    "raw_model_name_or_path": "diacritics/diacritizing/models/base/outputs/1186336",
+    "candidates_model_name_or_path": "diacritics/diacritizing/intermediate/base/outputs/outputs/2101816",
+    "data_dir": "diacritics/diacritizing/",
+    "output_dir": "diacritics/diacritizing/finetuning/outputs/tmp",
+    "do_train": true,
+    "num_train_epochs": 1,
+    "max_steps": 500,
+    "per_device_train_batch_size": 4,
+    "logging_strategy": "steps",
+    "logging_steps": 50,
+    "evaluation_strategy": "steps",
+    "do_eval": true,
+    "eval_steps": 100,
+    "save_strategy": "no",
+    "report_to": "none",
+    "num_words": 2,
+    "num_candidates": 2,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 5e-05
+}

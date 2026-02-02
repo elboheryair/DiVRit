@@ -1,0 +1,22 @@
+{
+    "model_name_or_path": "diacritics/diacritizing/models/base/outputs/1186336",
+    "raw_model_name_or_path": "diacritics/diacritizing/models/base/outputs/1186336",
+    "candidates_model_name_or_path": "diacritics/diacritizing/intermediate/base/outputs/outputs/2111473",
+    "data_dir": "diacritics/diacritizing/",
+    "output_dir": "diacritics/diacritizing/finetuning/outputs/base",
+    "do_train": true,
+    "num_train_epochs": 1,
+    "max_steps": 20000,
+    "per_device_train_batch_size": 4,
+    "logging_strategy": "steps",
+    "logging_steps": 500,
+    "evaluation_strategy": "steps",
+    "do_eval": true,
+    "eval_steps": 1000,
+    "save_strategy": "no",
+    "report_to": "wandb",
+    "num_words": 2,
+    "num_candidates": 4,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 5e-05
+}

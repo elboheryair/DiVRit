@@ -1,0 +1,22 @@
+{
+    "pos_encoding": true,
+    "raw_model_name_or_path": "dicta-il/alephbertgimmel-small",
+    "candidates_model_name_or_path": "diacritics/diacritizing/intermediate/base/outputs/outputs/2111473",
+    "data_dir": "diacritics/diacritizing/",
+    "output_dir": "diacritics/diacritizing/reg_loss_finetuning/outputs/base",
+    "do_train": true,
+    "do_eval": false,
+    "do_predict": false,
+    "num_train_epochs": 1,
+    "max_steps": 120000,
+    "per_device_train_batch_size": 16,
+    "logging_strategy": "steps",
+    "logging_steps": 500,
+    "evaluation_strategy": "steps",
+    "eval_steps": 1000,
+    "save_strategy": "no",
+    "report_to": "wandb",
+    "num_candidates": 2,
+    "gradient_accumulation_steps": 1,
+    "learning_rate": 5e-05
+}
